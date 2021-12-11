@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+    color: #E5E5E5 !important;
+}
+body{
+    background-color: #E5E5E5;
+}
+header{
+    font-family: 'PT Mono', monospace;
+}
+header>ul{
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+header .mydiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .mydiv li{
+    margin-left: 10px;
+}
