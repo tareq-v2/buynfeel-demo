@@ -34,3 +34,6 @@ header .mydiv{
 header .mydiv li{
     margin-left: 10px;
 }
+header .mydiv a{
+    font-size: 12px; 
+}
